@@ -14,11 +14,11 @@ bg-primary {
 .card {
     background-color: #ffffff !important;
     border: 2px solid #33527a !important;
-    border-radius: .5rem;
-    box-shadow: 10px 10px 5px -6px rgba(110, 110, 110, 0.5);
-    -webkit-box-shadow: 10px 10px 5px -6px rgba(110, 110, 110, 0.5);
-    -moz-box-shadow: 10px 10px 5px -6px rgba(110, 110, 110, 0.5);
+    border-radius: .75rem;
     height: 100%;
+    box-shadow: 6px 7px 9px 0px rgba(0,0,0,0.31);
+    -webkit-box-shadow: 6px 7px 9px -3px rgba(0,0,0,0.31);
+    -moz-box-shadow: 6px 7px 9px 0px rgba(0,0,0,0.31);
 }
 
 hr {
@@ -32,7 +32,7 @@ hr {
 #profile-pic{
     width: 50%;
     height: auto;
-    border-radius: 1rem;
+    border-radius: .75rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4%;
@@ -108,8 +108,9 @@ ul {
 
 .social{
     margin-right: 5px;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
+    border-radius: .75rem;
     transition: transform 0.1s ease;
 }
 
