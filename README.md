@@ -1,2 +1,3 @@
-## **My professional software development portfolio**
-- Built using Bootstrap, HTML, & CSS
+## **jamesbuchanan.dev**
+- This is my personal software development portfolio website
+- Built using Bootstrap, HTML, CSS, and Google fonts
