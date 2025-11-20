@@ -1,6 +1,6 @@
 /* body design*/
 body{
-    background-color:#f6f8fa!important;
+    background-color:#eeeeee!important;
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
     font-size: 18px;
@@ -30,6 +30,7 @@ hr {
 
 /* profile card */
 #profile-pic{
+    border: 2px solid #33527a !important;
     width: 55%;
     height: auto;
     border-radius: .75rem;
@@ -86,8 +87,11 @@ hr {
     padding: 2%;
 }
 
-.project-card:hover {
+/* .project-card:hover {
     transform: translateY(-4%);
+} */
+.project-card:hover {
+    transform: scale(1.05);
 }
 
 .project-card-link {
