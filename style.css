@@ -1,10 +1,10 @@
 /* body design */
 body {
-    background-color: #eeeeee !important;
+    background-color: #33527a !important;
     background-image:
-        linear-gradient(#a3a3a335 1px, transparent 1px),
-        linear-gradient(90deg, #a3a3a335 1px, transparent 1px) !important;
-    background-size: 25px 25px !important;
+        linear-gradient(#a3a3a335 2px, transparent 2px),
+        linear-gradient(90deg, #a3a3a335 2px, transparent 2px) !important;
+    background-size: 30px 30px !important;
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
     font-size: 18px;
@@ -13,16 +13,16 @@ body {
 
 .card {
     background-color: #ffffff !important;
-    border: 2px solid #33527a !important;
+    border: 3px solid #ffffff !important;
     border-radius: .75rem;
     height: 100%;
-    box-shadow: 6px 7px 9px 0px rgba(0,0,0,0.31);
-    -webkit-box-shadow: 6px 7px 9px -3px rgba(0,0,0,0.31);
-    -moz-box-shadow: 6px 7px 9px 0px rgba(0,0,0,0.31);
+    box-shadow: 6px 7px 9px 0px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 6px 7px 9px -3px rgba(0,0,0,0.6);
+    -moz-box-shadow: 6px 7px 9px 0px rgba(0,0,0,0.6);
 }
 
 hr {
-    border-top-width: 2px;
+    border-top-width: 3px;
     border-top-style: solid;
     border-top-color: #929292 !important; /* Replace with your desired color */
 }
@@ -30,7 +30,7 @@ hr {
 
 /* profile card */
 #profile-pic{
-    border: 2px solid #33527a !important;
+    /* border: 3px solid #ffffff !important; */
     width: 55%;
     height: auto;
     border-radius: .75rem;
@@ -87,9 +87,6 @@ hr {
     padding: 2%;
 }
 
-/* .project-card:hover {
-    transform: translateY(-4%);
-} */
 .project-card:hover {
     transform: scale(1.05);
 }
