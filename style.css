@@ -2,23 +2,32 @@
 body {
     background-color: #33527a !important;
     background-image:
-        linear-gradient(#a3a3a335 2px, transparent 2px),
-        linear-gradient(90deg, #a3a3a335 2px, transparent 2px) !important;
-    background-size: 30px 30px !important;
+        /* Small grid (1px lines, 20px spacing) */
+        linear-gradient(#a3a3a350 1px, transparent 1px),
+        linear-gradient(90deg, #a3a3a350 1px, transparent 1px),
+        /* Thick lines (2px lines, 100px spacing for large squares) */
+        linear-gradient(#a3a3a350 2px, transparent 2px),
+        linear-gradient(90deg, #a3a3a350 2px, transparent 2px);
+    background-size:
+        30px 30px, /* Small grid spacing */
+        30px 30px,
+        150px 150px, /* Large grid spacing (5x small grid) */
+        150px 150px;
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
     font-size: 18px;
-    color: #000000;
+    color: #222222;
 }
+
 
 .card {
     background-color: #ffffff !important;
     border: 3px solid #ffffff !important;
     border-radius: .75rem;
     height: 100%;
-    box-shadow: 6px 7px 9px 0px rgba(0,0,0,0.6);
-    -webkit-box-shadow: 6px 7px 9px -3px rgba(0,0,0,0.6);
-    -moz-box-shadow: 6px 7px 9px 0px rgba(0,0,0,0.6);
+    box-shadow: 6px 7px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 7px 9px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 9px 0px rgba(0,0,0,0.75);
 }
 
 hr {
@@ -30,7 +39,7 @@ hr {
 
 /* profile card */
 #profile-pic{
-    /* border: 3px solid #ffffff !important; */
+    border: 3px solid #ffffff !important;
     width: 55%;
     height: auto;
     border-radius: .75rem;
@@ -83,12 +92,13 @@ hr {
 }
 
 .project-card {
-    transition: transform 0.1s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
     padding: 2%;
 }
 
 .project-card:hover {
     transform: scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .project-card-link {
@@ -112,11 +122,11 @@ ul {
     width: 35px;
     height: 35px;
     border-radius: .75rem;
-    transition: transform 0.1s ease;
+    transition: transform 0.2s ease;
 }
 
 .social:hover {
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
 .social-links ul, li{
